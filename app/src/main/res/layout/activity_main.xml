@@ -23,66 +23,102 @@
         android:layout_gravity="center"
         android:layout_height="120dp" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="190dp"
         android:layout_marginTop="20dp"
-        android:text="@string/basics_of_programming_logic"
-        android:background="#ffa500"
         android:layout_gravity="center"
         android:id="@+id/bopl"
+        android:src="@drawable/programming"
         android:gravity="center"
-        android:paddingLeft="5dp"
-        android:paddingStart="5dp"
-        android:paddingRight="5dp"
-        android:layout_height="60dp" />
-    <android.support.v7.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_marginTop="15dp"
+        android:layout_height="190dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:text="@string/basics_of_programming_logic"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/bods"
+        android:src="@drawable/dsimage"
+        android:gravity="center"
+        android:layout_height="190dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:text="@string/basics_of_data_structures"
-        android:background="#ffa500"
         android:layout_gravity="center"
         android:gravity="center"
-        android:paddingLeft="5dp"
-        android:paddingStart="5dp"
-        android:paddingRight="5dp"
-        android:padding="8dp"
-        android:layout_height="60dp" />
-    <android.support.v7.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/oops"
+        android:src="@drawable/oopsimage"
+        android:gravity="center"
+        android:layout_height="190dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:text="@string/object_oriented_programming"
-        android:background="#ffa500"
-        android:paddingLeft="5dp"
-        android:paddingStart="5dp"
-        android:paddingRight="5dp"
-        android:padding="8dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_height="60dp" />
-    <android.support.v7.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/os"
+        android:src="@drawable/operatingsys"
+        android:gravity="center"
+        android:layout_height="190dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:text="@string/operating_systems"
-        android:background="#ffa500"
-        android:paddingLeft="5dp"
-        android:paddingStart="5dp"
-        android:paddingRight="5dp"
-        android:padding="8dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_height="60dp" />
-    <android.support.v7.widget.AppCompatButton
-        android:layout_width="match_parent"
-        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content" />
+
+
+    <ImageView
+        android:layout_width="190dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/dbms"
+        android:src="@drawable/dbmsimage"
+        android:gravity="center"
+        android:layout_height="190dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:text="@string/database_management_systems"
-        android:background="#ffa500"
-        android:paddingLeft="5dp"
-        android:paddingStart="5dp"
-        android:paddingRight="5dp"
-        android:padding="8dp"
         android:layout_gravity="center"
         android:gravity="center"
-        android:layout_height="60dp" />
+        android:layout_height="wrap_content" />
 
     <TextView
         android:layout_width="wrap_content"
