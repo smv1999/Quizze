@@ -74,6 +74,17 @@
                 android:textSize="16sp"
                 android:id="@+id/link_signup"
                 android:textColor="#3457F6"/>
+            <android.support.v7.widget.AppCompatButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:text="Login with Your Phone number"
+                android:id="@+id/phone_login"
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:background="#8033b2"
+                android:padding="12dp"
+                />
 
         </LinearLayout>
     </ScrollView>

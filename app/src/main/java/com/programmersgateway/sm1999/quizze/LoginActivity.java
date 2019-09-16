@@ -30,6 +30,7 @@ public class LoginActivity extends AppCompatActivity {
     private Context mContext;
     private ProgressBar mProgressBar;
     private EditText mEmail, mPassword;
+    Button loginph;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -41,13 +42,19 @@ public class LoginActivity extends AppCompatActivity {
         mContext = LoginActivity.this;
         toolbar = findViewById(R.id.toolmainbar);
         toolbar.setTitle("Login");
-
+        loginph = findViewById(R.id.phone_login);
         mProgressBar.setVisibility(View.GONE);
 
         setupFirebaseAuth();
         init();
 
-
+        loginph.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(LoginActivity.this,PhoneLoginActivity.class);
+                startActivity(i);
+            }
+        });
 
 
     }
